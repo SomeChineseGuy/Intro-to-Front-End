@@ -1,0 +1,62 @@
+h1 {
+  font-size: 40px;
+}
+
+p, li {
+  font-size: 20px;
+}
+
+.info-button,
+.learn-button,
+.url-button,
+.search,
+.remove-button {
+  font-size: 18px;
+  background-color: pink;
+  border: none;
+  padding: 1rem 2rem;
+}
+
+.learn-button {
+  background-color: tomato;
+}
+
+.url-button {
+  background-color: gold;
+}
+
+.search {
+  background-color: aqua;
+}
+
+.remove-button {
+  color: red;
+}
+
+.names {
+  font-size: 1rem;
+  border: none;
+  height: 3rem;
+  margin-right: 2rem;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  background-color: lightblue;
+}
+
+article {
+  padding: 2rem;
+}
+
+.animal {
+  max-width: 150px;
+}
+.animal img {
+  width: 150px
+}
+
+
+.results h1 {
+  color: red;
+}

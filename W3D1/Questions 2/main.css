@@ -1,0 +1,54 @@
+body {
+  background: aqua;
+}
+
+* {
+  margin: 0;
+}
+
+img {
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  font-size: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Write your code  here! */
+.links {
+
+}
+
+.pic-left {
+
+}
+
+.pic-right {
+
+}
+
+.content {
+
+}
+
+.pic-left .content {
+
+}
+
+.pic-right .content {
+
+}

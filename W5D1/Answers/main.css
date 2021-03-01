@@ -1,0 +1,45 @@
+html {
+  font-size: 67.5%;
+}
+main {
+  font-size: 1.8rem;
+  width: 80%;
+  color: whitesmoke;
+  margin: 60px auto;
+}
+button:focus {
+  outline: none;
+}
+.slides-container {
+  position: relative;
+  height: 400px;
+}
+.slide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: teal;
+  box-shadow: 0px 0px 2px 1px #888;
+  padding: 40px;
+  text-align: center;
+  box-sizing: border-box;
+  display: none;
+}
+.blacked,
+.next_prev button:hover {
+  background-color: black;
+  box-shadow: 3px 3px 6px 3px #888;
+}
+.next_prev {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.next_prev button {
+  padding: 20px 40px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 1px #888;
+  background-color: teal;
+  color: whitesmoke;
+}

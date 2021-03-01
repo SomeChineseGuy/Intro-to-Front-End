@@ -1,0 +1,72 @@
+h1 {
+  color: red;
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+h1, h2, h3, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+header h3 {
+  color: aqua;
+}
+
+section h3 {
+  color: green;
+}
+
+
+
+.pink {
+  color: pink;
+}
+
+.pink {
+  color: red;
+}
+
+
+#project a {
+  color: tomato;
+}
+
+.bg-aqua {
+  background-color: aqua;
+}
+
+
+.link {
+  padding: 100px;
+  padding-left: 20px;
+  padding-right: 55px;
+  background-color: red;
+  border: 10px solid black;
+  border-radius: 50%;
+  margin: 100px;
+}
+
+.button-one {
+  background: red;
+  height: 50px;
+  width: 100px;
+  /* padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 50px;
+  padding-left: 50px; */
+  padding: 25px 50px 25px 50px;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.button-two {
+  color: blue;
+    padding: 25px 50px 25px 50px;
+    border: 1px solid blue;
+    text-decoration: none;
+}

@@ -1,0 +1,115 @@
+body {
+  background: aqua;
+}
+
+* {
+  margin: 0;
+}
+
+img {
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+a {
+  font-size: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Write your code  here! */
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pic-left {
+  display: flex;
+}
+
+.pic-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pic-left .content {
+  padding-left: 50px;
+}
+
+.pic-right .content {
+  padding-right: 50px;
+}
+
+.fa-facebook-square {
+  color: #4267b2;
+}
+
+.fa-youtube {
+  color: #ff0000;
+}
+
+.fa-twitter {
+  color: #1ca1f2;
+}
+
+.fa-google {
+  color: #35a853;
+}
+
+.fa-google:hover {
+  color: #4285f4;
+}
+
+.three-img {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.normal-img {
+    height: 300px;
+    width: 300px;
+}
+
+.background-img {
+    height: 300px;
+    width: 300px;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+/* Write your code here */
+.header {
+
+}
+
+.cat {
+    background-image: url('https://http.cat/305');
+}
+
+.landscape {
+    background-image: url('https://ichef.bbci.co.uk/wwfeatures/live/976_549/images/live/p0/7v/dq/p07vdqyb.jpg');
+}
+
+.obama {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f5/Poster-sized_portrait_of_Barack_Obama.jpg');
+}

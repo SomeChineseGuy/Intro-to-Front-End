@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+     />
+    <script src="https://kit.fontawesome.com/cd7e20452a.js"></script>
+    <script type="text/javascript" src="wow.min.js"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Flexbox Review</title>
+  </head>
+  <body>
+    <nav class="links">
+      <a href="https://www.twitter.com/"><i class="fab fa-twitter-square fa-3x"></i></a>
+      <a href="https://www.youtube.com/"><i class="fab fa-youtube fa-3x"></i></a>
+      <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-3x"></i></a>
+    </nav>
+    <section class="container pic-left">
+      <img src="grumpy-cat.jpg" alt="" class="hovering">
+      <article class="content animate__animated animate__bounce infinite">
+        <h1 class="animated wobble infinite">This is a header</h1>
+        <p>
+          Caramels cheesecake tart apple pie fruitcake gummies
+          bonbon dessert gummies. Jelly-o pudding jelly jelly
+          gingerbread ice cream carrot cake dragée. Brownie jelly-o
+          soufflé chocolate cake icing.
+        </p>
+        <p>
+          Chupa chups liquorice tootsie roll jujubes danish pudding.
+          Pudding carrot cake gummi bears pudding jelly-o gummies.
+          Chocolate brownie lemon drops halvah. Cotton candy oat
+          cake wafer pudding.
+        </p>
+      </article>
+    </section>
+    <section class="container pic-right">
+      <img src="grumpy-cat.jpg" alt="">
+      <article class="content">
+        <h1>This is a header</h1>
+        <p>
+          Caramels cheesecake tart apple pie fruitcake gummies
+          bonbon dessert gummies. Jelly-o pudding jelly jelly
+          gingerbread ice cream carrot cake dragée. Brownie jelly-o
+          soufflé chocolate cake icing.
+        </p>
+        <p>
+          Chupa chups liquorice tootsie roll jujubes danish pudding.
+          Pudding carrot cake gummi bears pudding jelly-o gummies.
+          Chocolate brownie lemon drops halvah. Cotton candy oat
+          cake wafer pudding.
+        </p>
+      </article>
+    </section>
+    <section>
+      <h1>Learning for today!</h1>
+      <ul class="adjacent-sibling">
+        <li>Number 1</li>
+        <li class="">Number 2</li>
+        <li>Number 3</li>
+      </ul>
+    </section>
+    <section class="general">
+      <h1>General Sibling Selector</h1>
+      <span>This is not red.</span>
+      <p>Here is a paragraph.</p>
+      <code>Here is some code.</code>
+      <span>And here is a red span!</span>
+      <code>More code...</code>
+      <span>And this is a red span!</span>
+    </section>
+    <section class="direct-descendant">
+      <h1>Direct Descendant</h1>
+      <div>
+        <span>Span #1, in the div.
+          <span>Span #2, in the span that's in the div.</span>
+        </span>
+      </div>
+      <span>Span #3, not in the div at all.</span>
+    </section>
+    <section class="child">
+      <h1>First type of, nth of type, first child, last child</h1>
+      <ul>
+        <li>Number 1</li>
+        <li>Number 2</li>
+        <li>Number 3</li>
+        <li>Number 4</li>
+        <li>Number 5</li>
+        <li>Number 6</li>
+        <li>Number 7</li>
+      </ul>
+    </section>
+    <section class="elements">
+      <p>hello! How are you?</p>
+    </section>
+  </body>
+</html>

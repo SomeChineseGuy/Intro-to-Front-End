@@ -1,0 +1,121 @@
+body {
+  background: aqua;
+}
+
+* {
+  margin: 0;
+}
+
+img {
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p,span,code {
+  font-size: 20px;
+}
+
+a {
+  font-size: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+section {
+  padding: 1rem;
+}
+
+/* Write your code  here! */
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pic-left {
+  display: flex;
+
+}
+
+.pic-left:hover {
+  flex-direction: row-reverse;
+}
+
+.pic-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pic-left .content {
+  padding-left: 30px;
+}
+
+.pic-right .content {
+  padding-right: 30px;
+}
+
+.fa-twitter-square {
+  color: #2ea1f2;
+  padding: 20px;
+  transition-property: all;
+  transition-delay: 0s;
+  transition-duration: 3s;
+  transition-timing-function: ease-in;
+  transition: all 0s 3s ease-in;
+}
+
+.fa-twitter-square:hover {
+  color: white;
+}
+
+
+/* Learning */
+.adjacent-sibling li:first-of-type + li {
+  color: red;
+}
+
+.general p ~ span {
+  color: red;
+}
+
+.direct-descendant div > span {
+  color: green;
+}
+
+.child li:first-of-type {
+  color: white;
+}
+
+.child li:nth-last-of-type(4) {
+  color: green;
+}
+
+.child li:first-child {
+  color: blue;
+}
+
+.child li:last-child {
+  color: gray;
+}
+
+.elements p::first-letter {
+  font-size: 40px;
+  color: tomato;
+  font-style: italic;
+}
+
+.elements p::selection {
+  background-color: gold;
+}

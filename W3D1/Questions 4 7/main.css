@@ -1,0 +1,135 @@
+body {
+  background: aqua;
+}
+
+* {
+  margin: 0;
+}
+
+img {
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 15px;
+
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p,span,code {
+  font-size: 20px;
+}
+
+a {
+  font-size: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+section {
+  padding: 1rem;
+}
+
+/* Write your code  here! */
+.links {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.pic-left {
+  display: flex;
+  transition: all 2s ease-in 1.5s;
+
+}
+
+.pic-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.pic-left .content {
+  padding-left: 50px;
+  transition: all 3s ease-in 5s;
+}
+
+.pic-left .content:hover {
+  padding-left: 400px;
+}
+
+.pic-right .content {
+  padding-right: 50px;
+}
+
+.fa-twitter-square {
+  color: #1ca1f2;
+}
+
+.fa-youtube {
+  color: #ff0000;
+}
+
+.fa-facebook-square {
+  color: #3f5c9a;
+}
+
+/* Learning */
+.adjacent-sibling li:first-of-type + li {
+  color: red;
+}
+
+.general p ~ span {
+    color: red;
+}
+
+.direct-descendant div > span {
+  color: green;
+}
+
+/* .direct-descendant div span {
+  color: green;
+} */
+
+/* .hovering:hover {
+  height: 1000px;
+  width:  1000px;
+} */
+
+.hovering {
+
+}
+
+.hovering:hover {
+  height: 500px;
+  width: 500px;
+  transition: resize 2s ease-in 1.5s;
+}
+
+.pic-left:hover p {
+  color: green;
+}
+
+.child li:first-of-type {
+  color: tomato;
+}
+
+.child li:nth-last-of-type(4) {
+  color: gold;
+}
+
+.child h1:first-child {
+  color: gray;
+}
+
+.child li:last-child {
+  color: pink;
+}

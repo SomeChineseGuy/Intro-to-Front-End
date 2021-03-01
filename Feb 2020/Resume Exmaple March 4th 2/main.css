@@ -1,0 +1,163 @@
+p {
+  color: pink;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Open Sans' ;
+  font-weight: bolder;
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat' ;
+}
+
+.top {
+  color: red;
+  background-color: pink;
+}
+
+.red {
+  color: red;
+}
+
+#red {
+  color: blue;
+}
+
+.project-section h2 {
+  color: tomato;
+}
+
+.container {
+  padding: 10rem 0;
+}
+
+.image {
+
+}
+
+.button {
+  background: red;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 25px 50px;
+  border-radius: 10px;
+}
+
+.button-2 {
+  padding: 25px 50px;
+  border: 10px solid black;
+  font-size: 20px;
+  color: black;
+}
+
+
+/* Project Section */
+#project-section {
+
+}
+
+.project, .section {
+
+}
+
+
+.project h2 {
+
+}
+
+.project h3 {
+
+}
+
+/* display */
+.display {
+  padding: 10rem;
+}
+
+.display h1 {
+
+}
+
+
+
+.navbar {
+  justify-content: space-around;
+  display: flex;
+}
+
+.personal-section {
+  display: flex;
+}
+
+.personal-img {
+  width: 50%;
+}
+
+.content  {
+  width: 50%;
+}
+
+.img-4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.singles  {
+  width: 20%;
+}
+
+.summary {
+  display: flex;
+}
+
+.summary h3 {
+  width: 10%;
+  padding-left: 10px;
+}
+
+.summary p {
+  width: 90%;
+}
+
+.pic-left {
+  display: flex;
+}
+
+.pic-left .info {
+  padding-left: 20px;
+  width: 50%;
+}
+
+.pic-left  img {
+  width: 50%;
+}
+
+.pic-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.pic-right .info {
+  padding-right: 20px;
+  width: 50%;
+}
+
+.pic-right img {
+  width: 50%;
+}

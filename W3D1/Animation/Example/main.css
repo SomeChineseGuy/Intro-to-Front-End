@@ -1,0 +1,54 @@
+body {
+  background: aqua;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.box-1 {
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-2 {
+  background: green;
+
+}
+
+.box-3 {
+  background: blue;
+
+}
+
+.box-4 {
+  background: pink;
+}
+
+/* Learn Animations here! */
+.box:hover {
+  height: 300px;
+  width: 300px;
+  margin-left: 50px;
+
+}
+
+.box {
+
+}
+
+.none {
+  display: none;
+}
+
+.box-1:hover .none {
+  display: block;
+}
+
+.box:nth-of-type(4) {
+  background: gold;
+}

@@ -1,0 +1,60 @@
+body {
+  background: aqua;
+}
+
+* {
+  margin: 0;
+}
+
+img {
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  font-size: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Write your code  here! */
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pic-left {
+  display: flex;
+}
+
+.pic-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pic-left .content {
+  padding-left: 50px;
+}
+
+.pic-right .content {
+  padding-right: 50px;
+}
+
+/* Learning */

@@ -1,0 +1,22 @@
+body {
+  background: aqua;
+}
+
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 100px;
+  padding: 100px;
+  border: 30px white solid;
+  border-radius: 50%;
+}
+
+.red {
+  background-color:red;
+}
+
+
+.pink {
+  background: pink;
+}

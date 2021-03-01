@@ -1,0 +1,126 @@
+body {
+  background: aqua;
+}
+
+* {
+  margin: 0;
+}
+
+img {
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p,span,code {
+  font-size: 20px;
+}
+
+
+a {
+  font-size: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+section {
+  padding: 1rem;
+}
+
+/* Write your code  here! */
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pic-left {
+  display: flex;
+}
+
+.pic-left .content {
+  padding-left: 30px;
+}
+
+.pic-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pic-right .content {
+  padding-right: 30px;
+}
+
+.fa-twitter-square {
+  color: #2fa0f2;
+  transition-duration: 5s;
+  transition-delay: 1s;
+  transition-timing-function: ease-out;
+}
+
+.fa-twitter-square:hover {
+  color: green;
+  border: 1px red solid;
+}
+
+
+.fa-youtube-square {
+  color: #f82600;
+}
+
+.fa-facebook-square {
+  color: #2677f2;
+}
+
+/* Learning */
+.adjacent-sibling li:first-of-type + li {
+  color: red;
+}
+
+.general p ~ span {
+  color: red;
+}
+
+.direct-descendant div > span {
+  color: pink;
+}
+
+.child li:first-of-type {
+  color: tomato;
+}
+
+/* .child li {
+  color: blue;
+} */
+
+.child li:nth-last-of-type(4) {
+  color: pink;
+}
+
+.child li:first-child {
+  color: green;
+}
+
+.child li:last-child {
+  color: blue;
+}
+
+.elements p::first-letter {
+ font-size: 70px;
+ color: red;
+}
+
+h2 {
+  border: 1px solid white;
+}

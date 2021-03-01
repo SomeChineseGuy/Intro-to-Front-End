@@ -1,0 +1,74 @@
+p {
+  font-family: 'Oxanium' ;
+}
+
+p {
+  font-size: 40px;
+  font-weight: bolder
+  color: green;
+
+}
+
+section {
+}
+
+.blue {
+  background: blue;
+}
+
+#red {
+  color: red;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat' ;
+}
+
+.top {
+  color: red;
+  background-color: pink;
+}
+
+.project-section h2 {
+  color: tomato;
+}
+
+.button {
+  background: red;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 25px 50px;
+  border-radius: 10px;
+}
+
+.button-2 {
+  padding: 25px 50px;
+  border: 10px solid black;
+  font-size: 20px;
+  color: black;
+}
+
+.image {
+  height: 500px;
+  width: 900px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  background: purple;
+  border: 10px dotted black;
+  border-radius: 10%;
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}

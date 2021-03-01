@@ -1,0 +1,54 @@
+body {
+  background-color: aqua;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: red;
+}
+
+#purple {
+  color: purple;
+}
+
+.green {
+  color: green;
+}
+
+
+
+/* Project Section */
+.project-section {
+
+}
+
+/* Personal-information Section */
+
+
+.img {
+  background-color: pink;
+  width: 500px;
+  height: 500px;
+  /* padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px; */
+  padding: 40px 40px 40px 40px
+  border: 10px solid black;
+  border-radius: 30px;
+  /* margin-top: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px; */
+  margin: 40px 40px 40px 40px;
+}
+
+.btn {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}

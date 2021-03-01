@@ -1,0 +1,69 @@
+body {
+  background: tomato;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  margin: auto;
+}
+
+.box-container {
+  width: 1200px;
+  height: 1200px;
+  background: aqua;
+  margin: 0 auto;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gold {
+  background: gold;
+}
+
+.teal {
+  background: teal;
+}
+
+.purple {
+  background: purple;
+}
+
+.salmon {
+ background: salmon;
+}
+
+.white {
+  background: white;
+}
+
+
+/* Write your code here! */
+.flex-me {
+
+}
+
+.box-1 {
+
+}
+
+.box-2 {
+
+}
+
+.box-3 {
+
+}
+
+.box-4 {
+
+}
+
+.box-5 {
+
+}

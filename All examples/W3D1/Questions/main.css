@@ -1,0 +1,125 @@
+body {
+  background: aqua;
+}
+
+* {
+  margin: 0;
+}
+
+img {
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p,span,code {
+  font-size: 20px;
+}
+
+a {
+  font-size: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+section {
+  padding: 1rem;
+}
+
+/* Write your code  here! */
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pic-left {
+  display: flex;
+  justify-content: center;
+}
+
+.pic-right {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.pic-left .content {
+  padding-left: 50px;
+}
+
+.pic-right .content {
+  padding-right: 50px;
+}
+
+.fa-twitter-square {
+  color: #1da1f2;
+  transition-property: padding;
+  transition-delay: 2s;
+  transition-duration: 200s;
+  transition-timing-function: ease-in;
+  margin: 1px 1px 1px 1px;
+  transition: padding 2s ease-in 200s;
+}
+
+.fa-twitter-square:hover {
+  color: green;
+  padding: 100px;
+}
+
+.fa-youtube-square {
+  color: red;
+}
+
+.fa-facebook-square {
+  color: blue;
+}
+
+/* Learning */
+.adjacent-sibling li:first-of-type + li {
+  color: yellow;
+}
+
+.general p ~ span {
+  color: red;
+}
+
+.direct-descendant div > span {
+  color: green;
+}
+
+.child li:first-of-type {
+  color: white;
+}
+
+.child li:nth-last-of-type(4) {
+  color: yellow;
+}
+
+.child li:first-child {
+  color: red;
+}
+
+.child li:last-child {
+  color: pink;
+}
+
+.elements p:hover {
+  color: blue;
+}
+
+.elements p::first-letter {
+  text-transform: uppercase;
+}

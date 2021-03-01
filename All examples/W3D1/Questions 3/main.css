@@ -1,0 +1,122 @@
+body {
+  background: aqua;
+}
+
+* {
+  margin: 0;
+}
+
+img {
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p,span,code, a {
+  font-size: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+section {
+  padding: 1rem;
+}
+
+/* Write your code  here! */
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pic-left {
+  display: flex;
+}
+
+.pic-left:hover {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.pic-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pic-left .content {
+  padding-left: 50px;
+}
+
+.pic-right .content {
+  padding-right: 50px;
+}
+
+.fa-twitter-square {
+  color: #2ea1f2;
+  transition-property: all;
+  transition-delay: 0s;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+
+  transition: all 0s 2s ease-in;
+}
+
+.fa-twitter-square:hover {
+  color: pink;
+  padding: 200px;
+
+}
+
+.fa-youtube-square {
+  color: red;
+}
+
+.fa-facebook-square {
+  color: #2677f2;
+}
+
+/* Learning */
+.adjacent-sibling li:first-of-type + li {
+  color: red;
+}
+
+.general p ~ span {
+  color: red;
+}
+
+.direct-descendant div > span {
+  color: green;
+}
+
+.child li:first-of-type {
+  color: blue;
+}
+
+.child li:nth-last-of-type(4) {
+  color: green;
+}
+
+.child li:first-child {
+  color: tomato;
+}
+
+.child li:last-child {
+  color: white;
+}
+
+.elements p::first-letter {
+  text-transform: uppercase;
+  font-size: 40px;
+  color: red;
+}

@@ -1,0 +1,144 @@
+body {
+  margin:0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pink {
+  background-color: pink;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-container {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+
+}
+
+.pink h1{
+  color:black;
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.pink a {
+  width: 40%;
+}
+
+h1,h2 {
+  font-family: 'Oxanium' ;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.forest-section img {
+  width: 40%;
+  border-radius: 10%;
+}
+
+.personal img{
+  width:30%;
+}
+
+
+
+/* Forest */
+.forest-section {
+  padding: 50px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.forest {
+  color: green;
+  text-align: center;
+  font-size: 60px;
+  font-family: cursive;
+  padding-left:10px;
+}
+
+.personal{
+  background: lightyellow;
+  display: flex;
+  justify-content: flex-start;
+  padding: 50px;
+  font-family: 'Montserrat';
+    border-left: 30px gold solid;
+}
+
+.experience-section{
+  border-top:  5px gold solid;
+  background: lightyellow;
+  padding-left: 20px;
+  font-family: 'Montserrat';
+    border-left: 30px gold solid;
+}
+
+.personal h2{
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.gold-left {
+  border-left: 10px gold solid;
+}
+
+.personal h3{
+  font-size: 20px;
+  color: palevioletred;
+  padding: 10px 10px;
+}
+
+.personal2{
+  padding:20px 20px;
+}
+
+.phone{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.email{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.location{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.folder{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.left {
+  border-right: 5px solid gold;
+  width: 50%;
+
+}
+
+.right {
+  width: 50%;
+}
+
+.bottom {
+  display: flex;
+}

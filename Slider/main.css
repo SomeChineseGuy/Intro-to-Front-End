@@ -1,0 +1,12 @@
+body {
+    background: aqua;
+}
+
+
+.slider {
+    margin: 20px;
+}
+
+#calculatorSlider {
+    width: 30rem;
+}
